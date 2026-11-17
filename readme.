@@ -1,0 +1,45 @@
+Member 1 — Authentication & Security
+
+User access and authorization
+- Register/login with JWT and bcrypt
+- Authentication middleware and role-based authorization
+- Admin/user role checks and protected routes
+- Input validation and authentication tests
+Endpoints: /auth/register, /auth/login, /auth/me
+
+
+
+Social Media API 
+
+Abstract 
+
+Create a social media platform API using Express and TypeScript with user profile management, post creation and editing, likes and comments functionality, follow/unfollow system, and news feed generation. Implement JWT-based authentication, role-based authorization for admin functions, and real-time notification triggers. The API will follow RESTful conventions, use TypeScript generics for reusable components, and implement pagination for large datasets. 
+
+Tools and Technologies 
+
+Express.js: RESTful API framework 
+
+TypeScript: Interfaces, generics, decorators 
+
+JWT: Authentication tokens 
+
+bcrypt: Secure password storage 
+
+Express middleware: Auth, validation, CORS 
+
+TypeScript generics: Type-safe API responses 
+
+Pagination: Limit and offset patterns 
+
+
+techstack used:
+
+Runtime	Node.js
+Framework	Express.js
+Language	TypeScript
+Database	PostgreSQL
+ORM	Prisma
+Authentication	JWT
+Password security	bcrypt
+Notifications	Socket.IO (if instant delivery is required)
+API testing	used thunderstrike
